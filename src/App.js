@@ -20,6 +20,17 @@ const App = () => {
   }
   return (
     <div>
+      <Ref></Ref>
+      
+      <br></br>
+      ----------------------
+      <br></br>
+
+      <Memo>
+        <NewContext.Provider></NewContext.Provider>
+      </Memo>
+
+
       <h1>宝可梦</h1>
       <Input onChangeHandler={onChangeHandler}></Input>
       <Lists pokemanList={filterPokeman} ></Lists>
